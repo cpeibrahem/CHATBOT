@@ -20,3 +20,4 @@
 
 ### If you want to try 
 https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=308430d8-357b-424a-841c-42638129a1b8&serviceInstanceID=d2e5564f-e435-4a42-b012-7d41d4cd78b3![]()
+![](https://github.com/cpeibrahem/IBM-Watson-Assistant/blob/main/image/06.PNG?raw=true)
