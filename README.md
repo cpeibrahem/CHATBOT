@@ -1,5 +1,5 @@
 ### IBM Watson Assistant
-open : https://cloud.ibm.com/
+## open : https://cloud.ibm.com/
 ![](https://github.com/cpeibrahem/CHATBOT/blob/main/image/01.jpg?raw=true)
 
 
@@ -15,7 +15,7 @@ open : https://cloud.ibm.com/
 ## write new answer
 ![](https://github.com/cpeibrahem/CHATBOT/blob/main/image/05.PNG?raw=true)
 
-##skill details
+## skill details
 ![](https://github.com/cpeibrahem/CHATBOT/blob/main/image/010.PNG?raw=true)
 
 ### If you want to try 
