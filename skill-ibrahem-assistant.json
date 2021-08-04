@@ -1,0 +1,623 @@
+{
+  "intents": [
+    {
+      "intent": "ابراهيم",
+      "examples": [
+        {
+          "text": "من هو ابراهيم صابر"
+        },
+        {
+          "text": "مين ابراهيم صابر"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "اسمك",
+      "examples": [
+        {
+          "text": "اسمك"
+        },
+        {
+          "text": "اسمك ايه"
+        },
+        {
+          "text": "اسمك شو"
+        },
+        {
+          "text": "اسمك وش"
+        },
+        {
+          "text": "الاسم"
+        },
+        {
+          "text": "ايش اسمك"
+        },
+        {
+          "text": "شو اسمك"
+        },
+        {
+          "text": "ما اسمك"
+        },
+        {
+          "text": "ماهو اسمك"
+        },
+        {
+          "text": "هل لديك اسم"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ترحيب",
+      "examples": [
+        {
+          "text": "اهلا بيك"
+        },
+        {
+          "text": "اهلا وسهلا"
+        },
+        {
+          "text": "صباح"
+        },
+        {
+          "text": "صباح الخير"
+        },
+        {
+          "text": "صباح العنبر"
+        },
+        {
+          "text": "صباح الياسمين"
+        },
+        {
+          "text": "هاي"
+        }
+      ],
+      "description": "السلام عليكم"
+    },
+    {
+      "intent": "تويتر",
+      "examples": [
+        {
+          "text": "ايش حسابك في تويتر"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "جوال",
+      "examples": [
+        {
+          "text": "رقم جوال"
+        },
+        {
+          "text": "عندك رقم جوال"
+        },
+        {
+          "text": "كم رقم ابراهيم"
+        },
+        {
+          "text": "كم رقم جوالك"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "سلام",
+      "examples": [
+        {
+          "text": "السلام"
+        },
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "السلام عليكم ورحمة الله"
+        },
+        {
+          "text": "السلام عليكم ورحمة الله وبركاتة"
+        },
+        {
+          "text": "السلام عليكم ورحمة الله وبركاته"
+        },
+        {
+          "text": "سلام"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "عمرك",
+      "examples": [
+        {
+          "text": "عمرك"
+        },
+        {
+          "text": "عندك كام سنه"
+        },
+        {
+          "text": "كم عمرك"
+        },
+        {
+          "text": "ماهو عمرك"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "عمل",
+      "examples": [
+        {
+          "text": "انت شغال"
+        },
+        {
+          "text": "شغلك"
+        },
+        {
+          "text": "عملك"
+        },
+        {
+          "text": "ماذا تعمل"
+        },
+        {
+          "text": "ماهو عملك"
+        },
+        {
+          "text": "ما هي وظيفتك"
+        },
+        {
+          "text": "هل انت تعمل"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "كيفك",
+      "examples": [
+        {
+          "text": "اخبارك"
+        },
+        {
+          "text": "ازيك"
+        },
+        {
+          "text": "عامل ايه"
+        },
+        {
+          "text": "كيف حالك"
+        },
+        {
+          "text": "كيفك"
+        },
+        {
+          "text": "وش حالك"
+        },
+        {
+          "text": "وش لونك"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "لينكد",
+      "examples": [
+        {
+          "text": "حساب لينكد"
+        },
+        {
+          "text": "طيب حساب لينكد"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "مدينتك",
+      "examples": [
+        {
+          "text": "انت عايش فين"
+        },
+        {
+          "text": "انت منين"
+        },
+        {
+          "text": "اين تعيش"
+        },
+        {
+          "text": "اين مدينتك"
+        },
+        {
+          "text": "ماهي مينتك"
+        },
+        {
+          "text": "مدينتك"
+        },
+        {
+          "text": "من اين انت"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "نتقابل",
+      "examples": [
+        {
+          "text": "عايز اشوفك"
+        },
+        {
+          "text": "عايزة اشوفك"
+        },
+        {
+          "text": "ممكن اشوفك"
+        },
+        {
+          "text": "هل ممكن ان اراك"
+        },
+        {
+          "text": "هل من الممكن ان نتقابل"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مرحبا بكم في الرد الالي الخاص بابراهيم صابر   اسمي هو هيما"
+              },
+              {
+                "text": "اسف ماذا تقصد"
+              },
+              {
+                "text": "اكتب زين مافهمت"
+              },
+              {
+                "text": "المعذرة ما فهمتك"
+              },
+              {
+                "text": "شكل المبرمج الذكي مضافش الكلمة ذي اكتب غيرها"
+              },
+              {
+                "text": "مش فاهم غير الكلمة"
+              },
+              {
+                "text": "المبرمج مش قد كدا اكتب كلام سهل"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "نتقابل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "لا طبعا ف انا غبر موجود"
+              },
+              {
+                "text": "ممكن عندما اتطور اكثر"
+              },
+              {
+                "text": " ربما قريبا جدا ادعي"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#نتقابل",
+      "dialog_node": "node_10_1628080602571",
+      "previous_sibling": "node_2_1628080740519"
+    },
+    {
+      "type": "standard",
+      "title": "اسمك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اسمي \" هيما \" المساعد الخاص بإبراهيم  صابر"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#اسمك",
+      "dialog_node": "node_1_1628080040169",
+      "previous_sibling": "node_10_1628080602571"
+    },
+    {
+      "type": "standard",
+      "title": "رقم",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ذا رقم ابراهيم اتواصل معاه 0545620563 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#جوال",
+      "dialog_node": "node_1_1628083407322",
+      "previous_sibling": "node_1_1628083569598"
+    },
+    {
+      "type": "standard",
+      "title": "ابراهيم",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "إبراهيم النوساني،\n\nطالب هندسة حاسب آلي في جامعة الملك خالد، عضو في نادي Google للطلبة المطورين، ومجموعة سعوديات في الأمن السيبراني، مهتم في مجال البرمجة والاختراق الأخلاقي.\n\nمشارك سابقا في تحدي نيوم للذكاء الاصطناعي، ومنسق مبادرات جامعة الملك خالد التقنية في صيف 2020، عضو المجلس الطلابي بكلية علوم الحاسب الآلي.\n\nلدي خبرات في مجال تطوير برمجة المشاريع الذكية باستخدام الأردونيو والـ Raspberry Bi، والتصميم ثلاثي الأبعاد."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ابراهيم",
+      "dialog_node": "node_1_1628083569598",
+      "previous_sibling": "node_6_1628083657817"
+    },
+    {
+      "type": "standard",
+      "title": "عمرك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "انا ولدت في  8/4/2021"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#عمرك",
+      "dialog_node": "node_2_1628080740519",
+      "previous_sibling": "node_7_1628080740337"
+    },
+    {
+      "type": "standard",
+      "title": "لينكد",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "وذا حساب لينكد \nhttp://www.linkedin.com/in/ibrahem-elnawasany"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#لينكد",
+      "dialog_node": "node_2_1628083842399"
+    },
+    {
+      "type": "standard",
+      "title": "عمل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "انا مهندس حاسب الي"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#عمل",
+      "dialog_node": "node_4_1628081144286",
+      "previous_sibling": "node_4_1628081274348"
+    },
+    {
+      "type": "standard",
+      "title": "سلام",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "وعليكم السلام ورحمة الله وبركاته"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#سلام",
+      "dialog_node": "node_4_1628081274348",
+      "previous_sibling": "node_5_1628081382976"
+    },
+    {
+      "type": "standard",
+      "title": "كيفك",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "بخير"
+              },
+              {
+                "text": "بصحه وعافية"
+              },
+              {
+                "text": "كويس"
+              },
+              {
+                "text": "في نعمه"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#كيفك",
+      "dialog_node": "node_5_1628081382976",
+      "previous_sibling": "node_1_1628083407322"
+    },
+    {
+      "type": "standard",
+      "title": "ترحيب",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "صباح النور والسرور"
+              },
+              {
+                "text": "أحبّ أصبّح بهداوه نهارك هادي بطراوه بطعم العسل والحلاوة صباح الخيـــر"
+              },
+              {
+                "text": "صباح الغلا والمعزّه"
+              },
+              {
+                "text": "صباحك نعمة الرّب صباحك حلو على القلب"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ترحيب",
+      "dialog_node": "node_6_1628078990609",
+      "previous_sibling": "node_1_1628080040169"
+    },
+    {
+      "type": "standard",
+      "title": "تويتر",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ذا حساب ابراهيم صابر لا تنسى تتابعه\nhttps://twitter.com/CpeIbrahem"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#تويتر",
+      "dialog_node": "node_6_1628083657817",
+      "previous_sibling": "node_2_1628083842399"
+    },
+    {
+      "type": "standard",
+      "dialog_node": "node_7_1628080740337",
+      "previous_sibling": "node_9_1628080888659"
+    },
+    {
+      "type": "standard",
+      "title": "مدينتي",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "^-^مدينتي موجودة داخل جهاز ابراهيم صابر ارجوك انقذني "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#مدينتك",
+      "dialog_node": "node_9_1628080888659",
+      "previous_sibling": "node_4_1628081144286"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اهلا وسهلا بيك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "ترحيب",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_6_1628078990609"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "ibrahem assistant",
+  "language": "en",
+  "description": ""
+}
