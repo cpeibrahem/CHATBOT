@@ -26,4 +26,7 @@ https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb
 ### Finish :
 ![](https://github.com/cpeibrahem/IBM-Watson-Assistant/blob/main/image/website.PNG)
 
+### If you want to try 
+https://cpeibrahem.github.io/IBM-Watson-Assistant/ibm.html
+
 ### link demo : https://youtu.be/NvUbsEloAiI
